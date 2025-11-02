@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+
+    <h1>FORM</h1>
+    <form action="">
+        <table border="1" cellpadding="5" cellspacing="0" style="color: brown; background-color: beige;">
+            <tr>
+                <td>Kullanıcı adı:</td>
+                <td><input type="text" name="ad" placeholder="kullanıcı adı"></td>
+            </tr>
+            <tr>
+                <td>Şifre:</td>
+                <td><input type="password" name="şifre" placeholder="şifre"></td>
+            </tr>
+            <tr>
+                <td>Mesajınız:</td>
+                <td><textarea name="mesajkutusu" cols="25" rows="5" placeholder="mesaj yazınız.."></textarea></td>
+            </tr>
+            <tr>
+                <td>Dosya:</td>
+                <td><input type="file" name="dosya"></td>
+            </tr>
+            <tr>
+                <td>Kozmetik markası:</td>
+                <td>
+                    <select name="seçim">
+                        <option value="1">SEÇİNİZ</option>
+                        <option value="2">PANTENE</option>
+                        <option value="3">LOREAL PARİS</option>
+                        <option value="4">CLEAR</option>
+                        <option value="5">HEPSİ</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Cinsiyet:</td>
+                <td>
+                    <input type="radio" value="erkek" name="cinsiyet"> Erkek 
+                    <input type="radio" value="kadın" name="cinsiyet"> Kadın
+                </td>
+            </tr>
+            <tr>
+                <td>Serbest seçim:</td>
+                <td>
+                    <input type="checkbox" value="erkek"> Erkek 
+                    <input type="checkbox" value="kadın"> Kadın 
+                    <input type="checkbox" value="hiçbiri"> Hiçbiri
+                </td>
+            </tr>
+            <tr>
+                <td>Tarih:</td>
+                <td><input type="date"></td>
+            </tr>
+            <tr>
+                <td>Saat:</td>
+                <td><input type="time"></td>
+            </tr>
+        
+        
+        </table>
+    </form>
+
+</body>
+</html>
